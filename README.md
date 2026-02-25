@@ -48,6 +48,14 @@ Một ứng dụng đặt phòng/thuê nhà hoàn chỉnh được xây dựng v
    ```
 _Backend API hiện tại sẽ chạy tại địa chỉ: `http://localhost:5000`._
 
+Thiết Lập Database (Cơ Sở Dữ Liệu)
+Dự án đã có sẵn file thiết kế cơ sở dữ liệu `init.sql` nằm trong thư mục `booking-house-backend/db-init/`. Bạn cần thực thi file này để tạo các bảng:
+1. Mở PgAdmin 4 và tạo một Database mới (ví dụ tên là `booking_house`).
+2. Nhấn chuột phải vào database vừa tạo -> Chọn **Query Tool**.
+3. Mở file `booking-house-backend/db-init/init.sql` bằng một trình soạn thảo (như VS Code), copy toàn bộ nội dung bên trong.
+4. Dán nội dung đó vào Query Tool của PgAdmin và nhấn nút **Execute** (hình tam giác nhỏ hoặc phím F5) để chạy lệnh.
+*(Lưu ý: Các bảng và khoá ngoại sẽ tự động được tạo ra kèm theo các Role mặc định).*
+
 ### 2️⃣ Thiết Lập Frontend (Flutter)
 1. Mở thư mục `bookinghouse` bằng phần mềm Android Studio hoặc VS Code.
 2. Tải bộ thư viện Flutter:
