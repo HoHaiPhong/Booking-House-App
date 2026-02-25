@@ -7,7 +7,7 @@ Một ứng dụng đặt phòng/thuê nhà hoàn chỉnh được xây dựng v
 - **Chat Trực Tuyến**: Tích hợp tính năng chat thời gian thực bằng Socket.IO.
 - **Quản Lý Bất Động Sản**: Xem, tìm kiếm và quản lý thông tin nhà/phòng cho thuê.
 - **Hệ Thống Đặt Phòng**: Kiểm tra tình trạng phòng trống và tiến hành đặt phòng dễ dàng.
-- **Phân Quyền Truy Cập**: Được thiết kế với các tính năng và giao diện chuyên biệt cho Admin, Chủ Nhà (Host) và Người Dùng (User).
+- **Phân Quyền Truy Cập**: Được thiết kế với các tính năng và giao diện ưa nhìn cho Người Dùng .
 
 ## 🛠️ Công Nghệ Sử Dụng
 
